@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroceryKo - Sign Up</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>GroceryKo Sign Up</h1>
+
+    <!-- User Registration Form -->
+    <section id="registrationSection">
+
+        <label>Full Name</label><br>
+        <input type="text" id="full_name" required><br>
+
+        <label>Address</label><br>
+        <input type="text" id="address" required><br>
+
+        <label>Username</label><br>
+        <input type="text" id="user_name" required><br>
+
+        <label>Email</label><br>
+        <input type="email" id="email" required><br>
+
+        <label>Password</label><br>
+        <input type="password" id="pword" required><br>
+
+        <button onclick="saveUserRecord()">Sign Up</button>
+
+        <p id="regMessage"></p>
+
+    </section>
+
+    <!-- External JavaScript -->
+    <script src="js/reg.js"></script>
+
+</body>
+</html>
